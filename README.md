@@ -16,18 +16,18 @@ What was modified or added:
 # install dependencies 
 npm i 
 
-# run development server
+# run the development server
 npm run dev
 ```
 Go to your browser to [localhost:3000/](localhost:3000/) and you will see pop-up asking credentials like this
-image.png
+![image](https://github.com/myrkytyn/nextjs-13-basic-auth/assets/42769358/fab773ee-9b56-4bfb-8578-12e4bb8d36d8)
 
 Username - test,
 Password - test
 
 ## Problem
-I need to have bigger middleware function with additional rules. So I tried to use nextBasicAuthMiddleware function. But with this function basic auth doesn't work.
+I need to have a bigger middleware function with additional rules. So I tried to use the nextBasicAuthMiddleware function. But with this function basic auth doesn't work.
 
 Check out middleware.ts for more details.
 
-How to achieve basic auth with nextBasicAuthMiddleware function?
+How to achieve basic auth with the nextBasicAuthMiddleware function?
